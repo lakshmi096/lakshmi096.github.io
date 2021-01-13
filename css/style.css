@@ -153,6 +153,10 @@ header {
     position: fixed;
 }
 
+.logo__lakshmi {
+    transform: scale(1.6);
+}
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
