@@ -297,6 +297,11 @@ header {
     }
 }
 
+.download-resume {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
 
 
 /*  My services section  */
