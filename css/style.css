@@ -355,6 +355,9 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
+    /* height: 300px; */
+    width: 230px;
+    object-fit: contain;
 }
 
 @media (min-width: 600px) {
@@ -405,6 +408,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    position: relative;
 }
 
 .portfolio__item {
@@ -429,6 +433,14 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
+}
+
+.portfolio__text {
+    position: absolute;
+    top: 0;
+    /* left: 150px; */
+    color: white;
+    text-align: center;
 }
 
 
@@ -611,5 +623,11 @@ header {
     }
 }
 
-
+.intro__img--gmail {
+    box-shadow: var(--bs);
+    height: 240px;
+    width: 240px;
+    object-fit: contain;
+    background: white;
+}
 
